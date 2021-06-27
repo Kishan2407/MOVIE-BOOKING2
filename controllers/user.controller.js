@@ -113,7 +113,7 @@ exports.logout = (req, res) => {
 };
 
 exports.getCouponCode = async (req, res) => {
-  
+    
     console.log("Start fatching coupones")
     const token = req.headers["x-access-token"] || req.headers["authorization"];
     console.log(token)
